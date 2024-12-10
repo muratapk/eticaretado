@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eticaretado", "eticaretado\eticaretado.csproj", "{2F63386C-ED0C-4DED-87D0-D5C55EE809F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F63386C-ED0C-4DED-87D0-D5C55EE809F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F63386C-ED0C-4DED-87D0-D5C55EE809F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F63386C-ED0C-4DED-87D0-D5C55EE809F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F63386C-ED0C-4DED-87D0-D5C55EE809F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A4A9839-662B-47B5-9E7C-54C6D51EE3D6}
+	EndGlobalSection
+EndGlobal
