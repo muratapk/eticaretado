@@ -72,6 +72,9 @@
     <Content Include="Panel\Admin.aspx" />
     <Content Include="Panel\Admin_Edit.aspx" />
     <Content Include="Panel\Admin_Sil.aspx" />
+    <Content Include="Panel\Category_Delete.aspx" />
+    <Content Include="Panel\Category_Edit.aspx" />
+    <Content Include="Panel\Kategori.aspx" />
     <Content Include="Panel\Main.aspx" />
     <Content Include="Panel\template\.gitignore" />
     <Content Include="Panel\template\404.html" />
@@ -1776,6 +1779,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Database.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1806,6 +1810,27 @@
     </Compile>
     <Compile Include="Panel\Admin_Sil.aspx.designer.cs">
       <DependentUpon>Admin_Sil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\Category_Delete.aspx.cs">
+      <DependentUpon>Category_Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Panel\Category_Delete.aspx.designer.cs">
+      <DependentUpon>Category_Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\Category_Edit.aspx.cs">
+      <DependentUpon>Category_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Panel\Category_Edit.aspx.designer.cs">
+      <DependentUpon>Category_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\Kategori.aspx.cs">
+      <DependentUpon>Kategori.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Panel\Kategori.aspx.designer.cs">
+      <DependentUpon>Kategori.aspx</DependentUpon>
     </Compile>
     <Compile Include="Panel\Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
@@ -2007,6 +2032,10 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.3.11.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.3.11.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -10,7 +10,7 @@ namespace eticaretado.Panel
 {
     public partial class Admin_Sil : System.Web.UI.Page
     {
-        SqlConnection conn = new SqlConnection("Data Source=MURATMEB\\SQLEXPRESS;Initial Catalog=eticaretdb;Integrated Security=True;");
+        SqlConnection conn = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=eticaretdb;Integrated Security=True;");
         //database bağlantısını oluşturuyor
         protected void Page_Load(object sender, EventArgs e)
         {
