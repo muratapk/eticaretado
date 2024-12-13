@@ -43,7 +43,8 @@ namespace eticaretado
             _conn.Open();
             cmd=new SqlCommand(cumle, _conn);
             dr=cmd.ExecuteReader();
-            _conn.Close();
+            
+          
             return dr;
             
         }

@@ -76,6 +76,9 @@
     <Content Include="Panel\Category_Edit.aspx" />
     <Content Include="Panel\Kategori.aspx" />
     <Content Include="Panel\Main.aspx" />
+    <Content Include="Panel\Product.aspx" />
+    <Content Include="Panel\Product_Delete.aspx" />
+    <Content Include="Panel\Product_Edit.aspx" />
     <Content Include="Panel\template\.gitignore" />
     <Content Include="Panel\template\404.html" />
     <Content Include="Panel\template\blank.html" />
@@ -1839,6 +1842,27 @@
     <Compile Include="Panel\Main.aspx.designer.cs">
       <DependentUpon>Main.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Panel\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Panel\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\Product_Delete.aspx.cs">
+      <DependentUpon>Product_Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Panel\Product_Delete.aspx.designer.cs">
+      <DependentUpon>Product_Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\Product_Edit.aspx.cs">
+      <DependentUpon>Product_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Panel\Product_Edit.aspx.designer.cs">
+      <DependentUpon>Product_Edit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -2032,6 +2056,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="ProductImage\" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.3.11.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />

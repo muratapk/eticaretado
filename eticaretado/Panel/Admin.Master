@@ -68,6 +68,12 @@
           <span>Kategoriler</span></a>
                 </li>
 
+  <li class="nav-item">
+  <a class="nav-link" href="Product.aspx">
+  <i class="fas fa-fw fa-chart-area"></i>
+<span>Ürünler</span></a>
+      </li>
+
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
